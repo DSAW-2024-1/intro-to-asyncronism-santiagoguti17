@@ -25,3 +25,8 @@
 | Calidad del código     | 1.5     |
 | Funcionalidad      | 1.5      |
 
+
+## Nombre
+Santiago Gutiérrez de Piñeres Barbosa
+santiagoguba 305850
+
