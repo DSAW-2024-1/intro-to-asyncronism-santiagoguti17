@@ -22,7 +22,7 @@
     };
 
     const fetchQuotes = async () => {
-        const quotes = await getQuotes(15);
+        const quotes = await getQuotes(100);
         displayQuotes(quotes);
     };
 
@@ -44,7 +44,7 @@
                 <img src="${quote.image}" alt="${quote.character}">
                 <div>
                     <h3>${quote.character}</h3>
-                    <p>${quote.quote}</p>
+                     <p>${quote.quote}</p>
                 </div>
             `;
             quoteContainer.appendChild(quoteElement);
@@ -81,7 +81,7 @@
     };
 
     const fetchQuotes3 = async () => {
-        const quotes = await getQuotes(10, 'ho');
+        const quotes = await getQuotes(21, 'ho');
         displayQuotes(quotes);
     };
 
