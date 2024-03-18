@@ -1,12 +1,35 @@
-.quote-container {
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FCE4D6; /* light yellow, like the Simpsons' skin color */
+  }
+  
+  header {
+    background-color: #FEE391; /* light beige, like the Simpsons' house color */
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #quote-container {
+    width: 80%;
+    margin: 2rem auto;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 5px;
-}
-.quote-container img {
-    width: 100px;
-    height: 100px;
-}
+  }
+  
+  .quote-container {
+    width: 30%;
+    background-color: #FFFFFF; /* white, like the Simpsons' shirt color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .quote-container img {
+    height: 150px; /* adjust the height value to your preference */
+    width: auto;
+    overflow: visible; /* or 'auto' */
+  }
